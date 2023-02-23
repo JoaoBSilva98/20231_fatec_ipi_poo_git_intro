@@ -10,12 +10,12 @@ public class Empregado {
         if(tipo == 0)
             return salario;
         
-        if(tipo == 1){
+        if(tipo == 1)
             return salario * comissao;
     
         if(tipo == 2)
             return salario + bonus;
-        
+        return 0;
     }
 
     public String getNome(){
